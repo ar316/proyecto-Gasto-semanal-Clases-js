@@ -96,12 +96,13 @@ class UI extends Presupuesto{
         console.log(restante);
        
         //ya he gastado mas del 75%
+        
         if((presupuesto/2)> restante) {
             console.log("ya gaste mas del 75%")
             restohtmkl.classList.remove("alert-success");
             restohtmkl.classList.add("alert-warning");  
           
-        }100
+        }
 
         if((presupuesto/4) > restante){
             console.log("ya gaste mas del 75%")
